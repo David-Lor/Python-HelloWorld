@@ -1,10 +1,7 @@
-"""RUNNER
-"""
-
-from .helpers import get_greet
-
-__all__ = ("run",)
+import uvicorn
+from .app import app
+from .settings import api_settings
 
 
 def run():
-    print(get_greet())
+    uvicorn.run(app, host=str(api_settings.host), port=api_settings.port)

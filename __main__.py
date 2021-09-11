@@ -1,3 +1,3 @@
-from python_helloworld import run
+from python_helloworld.runner import run
 
 run()
