@@ -1,3 +1,3 @@
-# Python HelloWorld (for testing the Docker-Python-Autoclonable-App)
+# Python HelloWorld (for testing the Docker-Python-Git-App)
 
-This repository serves as a testing repository for the [Docker-Python-Autoclonable-App](https://github.com/David-Lor/Docker-Python-Autoclonable-App).
+This repository serves as a testing repository for the [Docker-Python-Git-App](https://github.com/David-Lor/Docker-Python-Git-App).
