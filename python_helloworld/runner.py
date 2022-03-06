@@ -1,10 +1,11 @@
 """RUNNER
 """
 
-from .helpers import get_greet
+import sys
 
 __all__ = ("run",)
 
 
 def run():
-    print(get_greet())
+    args = sys.argv[1:]
+    print(f"Called with args: {args}")
